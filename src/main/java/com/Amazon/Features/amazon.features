@@ -1,0 +1,10 @@
+Feature: Amazon adding products to cart Test
+
+Scenario: validate products added to cart
+
+   Given user is on Amazon homePage
+   When user searches for Teddy bear
+   And  user sorts the products according to customer review
+   And  user selects Age range between 5 to 7 years old
+   And user adds first two products into his cart
+   Then two selected teddy bears should be available in his cart

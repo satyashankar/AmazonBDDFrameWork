@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+    <testcase classname="Amazon adding products to cart Test" name="validate products added to cart" time="0">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given user is on Amazon homePage............................................undefined
+When user searches for Teddy bear...........................................undefined
+And user sorts the products according to customer review....................undefined
+And user selects Age range between 5 to 7 years old.........................undefined
+And user adds first two products into his cart..............................undefined
+Then two selected teddy bears should be available in his cart...............undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>

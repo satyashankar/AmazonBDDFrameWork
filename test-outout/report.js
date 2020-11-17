@@ -1,0 +1,100 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/SandeepGoud/eclipse-workspace/AmazonBDDFrameWork/src/main/java/com/Amazon/Features/amazon.features");
+formatter.feature({
+  "line": 1,
+  "name": "Amazon adding products to cart Test",
+  "description": "",
+  "id": "amazon-adding-products-to-cart-test",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "validate products added to cart",
+  "description": "",
+  "id": "amazon-adding-products-to-cart-test;validate-products-added-to-cart",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "user is on Amazon homePage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "user searches for Teddy bear",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "user sorts the products according to customer review",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user selects Age range between 5 to 7 years old",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user adds first two products into his cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "two selected teddy bears should be available in his cart",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "searchPagestep.user_is_on_Amazon_homePage()"
+});
+formatter.result({
+  "duration": 10443116339,
+  "status": "passed"
+});
+formatter.match({
+  "location": "searchPagestep.user_searches_for_Teddy_bear()"
+});
+formatter.result({
+  "duration": 2805163136,
+  "status": "passed"
+});
+formatter.match({
+  "location": "searchPagestep.user_sorts_the_products_according_to_customer_review()"
+});
+formatter.result({
+  "duration": 5696572579,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "5",
+      "offset": 31
+    },
+    {
+      "val": "7",
+      "offset": 36
+    }
+  ],
+  "location": "searchPagestep.user_selects_Age_range_between_to_years_old(String,String)"
+});
+formatter.result({
+  "duration": 3053392527,
+  "status": "passed"
+});
+formatter.match({
+  "location": "searchPagestep.user_adds_first_two_products_into_his_cart()"
+});
+formatter.result({
+  "duration": 17008458120,
+  "status": "passed"
+});
+formatter.match({
+  "location": "searchPagestep.two_selected_teddy_bears_should_be_available_in_his_cart()"
+});
+formatter.result({
+  "duration": 62800610,
+  "error_message": "org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: \nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SANDZ\u0027, ip: \u0027192.168.2.17\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 82.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201108180448, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8096, moz:profile: C:\\Users\\SandeepGoud\\AppDat..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d5072089-6f1c-4c79-bff8-c71ac48ee011\n*** Element info: {Using\u003did, value\u003dnav-cart}\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.Amazon.Pages.ShoppingCartPage.open_shoppingCart_page(ShoppingCartPage.java:27)\r\n\tat com.Amazon.stepDefinations.searchPagestep.two_selected_teddy_bears_should_be_available_in_his_cart(searchPagestep.java:69)\r\n\tat ✽.Then two selected teddy bears should be available in his cart(C:/Users/SandeepGoud/eclipse-workspace/AmazonBDDFrameWork/src/main/java/com/Amazon/Features/amazon.features:10)\r\n",
+  "status": "failed"
+});
+});
